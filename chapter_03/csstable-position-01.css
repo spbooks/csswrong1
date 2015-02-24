@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 50px;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.promo {
+  display: table;
+  width: 560px;
+  border: 2px solid #5a3811;
+  border-collapse:collapse;
+}
+.promo .arrivals {
+  width: 160px;
+  display: table-cell;
+  border: 2px solid #5a3811;
+  padding: 10px;
+  background-color: #e7dbcd;
+}
+.promo .news {
+  width: 340px;
+  display: table-cell;
+  border: 2px solid #5a3811;
+  padding: 10px;
+}
+.promo h1 {
+  font-size: 110%;
+  font-weight: normal;
+  color: #5a3811;
+}
+.promo ul {
+  list-style:none;
+}
+.promo p, .promo li {
+  font-size: 75%;
+  line-height: 1.6em; 
+  padding-bottom: 1em;
+}
+#allnewslink {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+}
+a:link, a:visited {
+  color: #5a3811; 
+  background-color: transparent;
+}

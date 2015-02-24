@@ -1,0 +1,7 @@
+.row {
+  clear: both;
+}
+.image {
+  float: left;
+  margin: 2px;
+}

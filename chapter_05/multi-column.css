@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 50px;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Georgia, Times, serif;
+}
+.wrapper {
+  width: 80%;
+}
+
+.col1, .col2, .col3 {
+  width: 30%;
+  float: left;
+  margin-right: 2%;
+}

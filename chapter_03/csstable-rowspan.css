@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 50px;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tablewrapper {
+  position: relative;
+}
+.table {
+  display: table;
+}
+.row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+  border: 1px solid red;
+  padding: 1em;
+}
+.cell.empty
+{
+  border: none;
+  width: 100px;
+}
+.cell.rowspanned {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+}

@@ -1,0 +1,22 @@
+#main {
+  float: left;
+  width: 100%;
+  background-image: url(images/main-bg.gif);
+  background-repeat: repeat-y;
+}
+#main .inner {
+}
+#nav {
+  float: left;
+}
+#extras {
+  float: left;
+  border-right: none;
+}
+#content {
+  float: left;
+  width: 370px;
+}
+#footer {
+  clear: both;
+}

@@ -1,0 +1,22 @@
+#main {
+}
+#main .inner {
+}
+#nav {
+  width: auto;
+  padding: 8px 0;
+}
+#extras {
+  width: auto;
+  border-right: none;
+  border-bottom: 1px dotted #d7ad7b;
+}
+#content {
+  width: auto;
+}
+#nav li, #nav a:link, #nav a:visited {
+  display: inline;
+}
+#extras .box {
+  padding: 0;
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 50px;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Georgia, Times, serif;
+}
+
+.multi-wrapper {
+  width: 80%;
+  -moz-column-width: 10em;
+  -moz-column-gap: 1em;
+  -webkit-column-width: 10em;
+  -webkit-column-gap: 1em;
+  column-width: 10em;
+  column-gap: 1em;
+}
